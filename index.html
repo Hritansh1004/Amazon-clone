@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="prac4.css">
+        <title>Practice Set 4</title>
+    </head>
+
+<body>
+
+    <header>
+        <!-- <div id="nav1">
+    <a id="tittle" href="#">amazon.in</a>
+    <a class="spacenav" id="acc" href="#">Account</a>
+    <a class="spacenav" id="cart" href="#">My Cart</a>
+    <a class="spacenav" id="cont" href="#">Contact Us</a>
+    <input id="search" type="text"  placeholder="winters fashion">
+    <button id="but">search</button>
+    
+</div> -->
+
+        <div id="nav1">
+            <div class="Left-Side-Divs-Of-Nav-1">
+
+                <div class="amazon-logo">
+                    <div class="Border-Nav" id="imgheight">
+                        <div id="tittle"><a href="#"><img alt=""></a> </div>
+                        <div id="in">.in</div>
+                    </div>
+                </div>
+                <div class="Nav-Name-Address">
+                    <div class="Border-Nav " id="Addressnav">
+                        <div class="delivery1"> </div>
+                        <div class="delivery2">
+                            <div class="indelivery2" id="dilname">Deliver to Manisha</div>
+                            <div class="indelivery2" id="adname">Bhilai 490024</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Border-Nav" id="Searches">
+
+
+                <div class="All-Selecter-in-search">
+                    <div class="down-arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="arrow">
+                            <path
+                                d="M16.682 19.674c.01-.012.014-.028.024-.04l6.982-7.714c.39-.434.39-1.138 0-1.572-.004-.004-.008-.006-.012-.008a.936.936 0 0 0-.712-.34H8.998a.948.948 0 0 0-.722.352l-.004-.004a1.202 1.202 0 0 0 0 1.572l6.998 7.754a.928.928 0 0 0 1.412 0z"
+                                class="color000000 svgShape"></path>
+                        </svg></div>
+                    <div id="Allselect"> <select name="All" id="All-select">
+                            <option class="Alloptions" id="Allop" value="No Responce">All</option>
+                            <option class="Alloptions" value="No Responce">All Catageries</option>
+                            <option class="Alloptions" value="No Responce">Alexa Skills</option>
+                            <option class="Alloptions" value="No Responce">Amazon Devices</option>
+                            <option class="Alloptions" value="No Responce">Amazon Fashions</option>
+                            <option class="Alloptions" value="No Responce">Amazon Pharmacy</option>
+                            <option class="Alloptions" value="No Responce">Appliances</option>
+                            <option class="Alloptions" value="No Responce">Apps & Games</option>
+                            <option class="Alloptions" value="No Responce">Audible Audiobooks</option>
+                            <option class="Alloptions" value="No Responce">Baby</option>
+                            <option class="Alloptions" value="No Responce">Beauty</option>
+                            <option class="Alloptions" value="No Responce">Books</option>
+                            <option class="Alloptions" value="No Responce">Car & Moterbike</option>
+                            <option class="Alloptions" value="No Responce">Clothing & Accessories</option>
+                            <option class="Alloptions" value="No Responce">Collectibles</option>
+                            <option class="Alloptions" value="No Responce">Computers & Accessories</option>
+                            <option class="Alloptions" value="No Responce">Deals</option>
+                            <option class="Alloptions" value="No Responce">Electronics</option>
+                            <option class="Alloptions" value="No Responce">Furniturel</option>
+                            <option class="Alloptions" value="No Responce">Garden & Outdoors</option>
+                            <option class="Alloptions" value="No Responce">Gift Cards</option>
+
+
+                        </select>
+                    </div>
+                </div>
+                <div id="search">
+                    <div id="dhundho">
+                        <input type="text" placeholder="Search Amazon.in">
+                    </div>
+
+                </div>
+                <div class="button-of-dhundho">
+                    <div id="but">
+                        <button id="button"><svg id="search-icon" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0,0,300,150" style="fill:#333333;">
+                                <g fill="#333333" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(5.33333,5.33333)">
+                                        <path
+                                            d="M20.5,6c-7.99037,0 -14.5,6.50964 -14.5,14.5c0,7.99036 6.50963,14.5 14.5,14.5c3.45636,0 6.63371,-1.22096 9.12891,-3.25l9.81055,9.81055c0.37623,0.39185 0.9349,0.54969 1.46055,0.41265c0.52565,-0.13704 0.93616,-0.54754 1.07319,-1.07319c0.13704,-0.52565 -0.0208,-1.08432 -0.41265,-1.46055l-9.81055,-9.81055c2.02904,-2.4952 3.25,-5.67255 3.25,-9.12891c0,-7.99036 -6.50963,-14.5 -14.5,-14.5zM20.5,9c6.36905,0 11.5,5.13096 11.5,11.5c0,3.10261 -1.2238,5.90572 -3.20898,7.9707c-0.12237,0.08994 -0.23037,0.19794 -0.32031,0.32031c-2.06499,1.98518 -4.86809,3.20898 -7.9707,3.20898c-6.36905,0 -11.5,-5.13096 -11.5,-11.5c0,-6.36904 5.13095,-11.5 11.5,-11.5z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Right-Side-Divs-Of-Nav-1">
+                <div class="flag-EN-Languages">
+                    <div id="Languages">
+
+                        <div class="Border-Nav" id="Language-but">
+                            <button class="butun-but">
+                                <img src="india.png" alt="Indian flag">
+                                <P class="ENP"><b>EN</b></P>
+                                <div class="EN-down-arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                                        id="Arrow-EN">
+                                        <path
+                                            d="M16.682 19.674c.01-.012.014-.028.024-.04l6.982-7.714c.39-.434.39-1.138 0-1.572-.004-.004-.008-.006-.012-.008a.936.936 0 0 0-.712-.34H8.998a.948.948 0 0 0-.722.352l-.004-.004a1.202 1.202 0 0 0 0 1.572l6.998 7.754a.928.928 0 0 0 1.412 0z"
+                                            fill="#a7acb2" class="color000000 svgShape"></path>
+                                    </svg></div>
+                            </button>
+                        </div>
+
+                        <div class="Lang-opt">
+                            <DIV id="uP-aRROW"></DIV>
+                            <label for="EN" class="Lang-label">
+                                <input type="radio" value="LangEN" name="Lang" id="EN" checked><span>English - EN</span>
+                            </label>
+                            <hr>
+                            <label for="HI" class="Lang-label">
+                                <input type="radio" value="LangHI" name="Lang" id="HI"><span>हिन्दी - HI </span>
+                            </label>
+                            <label for="TA" class="Lang-label">
+                                <input type="radio" value="LangTA" name="Lang" id="TA"><span>தமிழ் - TA </span>
+                            </label>
+                            <label for="TE" class="Lang-label">
+                                <input type="radio" value="LangTE" name="Lang" id="TE"><span>తెలుగు - TE </span>
+                            </label>
+                            <label for="KN" class="Lang-label">
+                                <input type="radio" value="LangKN" name="Lang" id="KN"><span>ಕನ್ನಡ - KN </span>
+                            </label>
+                            <label for="ML" class="Lang-label">
+                                <input type="radio" value="LangML" name="Lang" id="ML"><span>മലയാളം - ML </span>
+                            </label>
+                            <label for="BN" class="Lang-label">
+                                <input type="radio" value="LangBN" name="Lang" id="BN"><span>বাংলা - BN </span>
+                            </label>
+                            <label for="MR" class="Lang-label">
+                                <input type="radio" value="LangMR" name="Lang" id="MR"><span>मराठी - MR </span>
+                            </label>
+                            <br>
+                            <label for="learn-more"><a class="learn-more" id="learn" href="#">Learn more</a> </label>
+                            <hr>
+                            <img src="india.png" alt="Indian flag">
+                            <p class="ENP">You are shoping on Amazon.in</p>
+                            <br><br>
+                            <label for="learn-more"><a class="learn-more" id="more" href="#">change
+                                    country/region</a></label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="Hello-n-Account">
+                    <div class="Border-Nav" id="Hello-Manisha">
+                        <div class="delivery2">
+                            <div class="indelivery2" id="dilname">Hello, Manisha</div>
+                            <div class="indelivery2" id="adname">Account & List</div>
+                        </div>
+                        <div class="Hello-Account-down-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="Arrow-Account">
+                                <path
+                                    d="M16.682 19.674c.01-.012.014-.028.024-.04l6.982-7.714c.39-.434.39-1.138 0-1.572-.004-.004-.008-.006-.012-.008a.936.936 0 0 0-.712-.34H8.998a.948.948 0 0 0-.722.352l-.004-.004a1.202 1.202 0 0 0 0 1.572l6.998 7.754a.928.928 0 0 0 1.412 0z"
+                                    fill="#a7acb2" class="color000000 svgShape"></path>
+                            </svg>
+                        </div>
+                        <!-- <div class="Hello-account-flyout">
+                        <div class="Sign-in-HeLLO-ACCOUNT">
+                            <DIV class="ACC-SIGN-IN-FLYOUT">
+                                <div id="Sign-in-DIV">
+                                    <div id="written-inside-sign-in-DIV">Who is shopping? Select a profile.</div>
+                                </div>
+                            </DIV>
+                        </div>
+
+                        <div class="List-Hello-account">
+                            <DIV class="ACC-yourlist-FLYOUT"></DIV>
+                            <DIV class="ACC-your-account-FLYOUT"></DIV>
+                        </div>
+                    </div> -->
+
+                        <div class="Hello-account-flyout">
+                            <div class="up-Arrow-hello-account-Fly-out"></div>
+
+                            <div class="Child-Hello-account-flyout">
+                                <div id="Sign-in-DIV">
+                                    <div id="written-inside-sign-in-DIV">Who is shopping? Select a profile.</div>
+                                    <div class="manage-profiles-div-inside-sign-in-div">
+                                        <span>Manage Profiles</span> <img id="right-arrow-sign-in"
+                                            style="height: 10px; width: 6px; margin: 3px 0 0 6px;"
+                                            src="https://m.media-amazon.com/images/G/01/x-locale/personalization/profiles/PathArrowImageLinkBlueRight4XResolution.jpg"
+                                            alt="">
+                                    </div>
+                                </div>
+
+                                <div class="you-list-and-you-account">
+                                    <div class="ACC-your-lists-FLYOUT">
+
+                                        <div class="ACC-your-list-tittle">Your Lists</div>
+                                        <div class="inside-Your-Lists">
+                                            <a class="Your-Lists-items your-list-item-second-class"
+                                                id="You-List-Shopping" href="#">
+                                                <span class="Shopping-list-your-list-item">Shopping List</span>
+                                            </a>
+                                            <a class="Your-Lists-items Create-a-Wish-List-second-class" href="#">
+                                                <span class="">Create a Wish List</span>
+                                            </a>
+                                            <a class="Your-Lists-items Wish-From-Any-Website-second-class" href="#">
+                                                <span class="">Wish From Any Website</span>
+                                            </a>
+                                            <a class="Your-Lists-items Baby-Wish-List-second-class" href="#">
+                                                <span class="">Baby Wish List</span>
+                                            </a>
+                                            <a class="Your-Lists-items Discover-Your-Style-second-class" href="#">
+                                                <span class="">Discover Your Style</span>
+                                            </a>
+                                            <a class="Your-Lists-items Explore-Showroom-second-class" href="#">
+                                                <span class="">Explore Showroon</span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <DIV class="ACC-your-account-FLYOUT">
+                                        <div class="ACC-your-account-tittle">Your Account</div>
+                                        <div class="Inside-Your-Account">
+                                            <a class="Your-Account-items your-account-parent" href="#">
+                                                <span class="Your-Account Your-Account-items-Id">Your Account</span>
+                                            </a>
+
+                                            <a class="Your-Account-items Your-Orders-parent" href="#">
+                                                <span class="Your-Orders Your-Account-items-Id">Your Orders</span>
+                                            </a>
+
+                                            <a class="Your-Account-items Your-Wish-List-parent" href="#">
+                                                <span class="Your-Wish-List Your-Account-items-Id">Your Wish List</span>
+                                            </a>
+
+                                            <a class="Your-Account-items Keep-shopping-for-parent" href="#">
+                                                <span class="Keep-shopping-for Your-Account-items-Id">Keep shopping
+                                                    for</span>
+                                            </a>
+
+                                            <a class="Your-Account-items Your-Recommendations-parent" href="#">
+                                                <span class="Your-Recommendations Your-Account-items-Id">Your
+                                                    Recommendations</span>
+                                            </a>
+
+                                            <a class="Your-Account-items Recalls-and-Product-Safety-Alerts-parent"
+                                                href="#">
+                                                <span
+                                                    class="Recalls-and-Product-Safety-Alerts Your-Account-items-Id">Recalls
+                                                    and Product Safety
+                                                    Alerts</span>
+                                            </a>
+
+                                            <a class="Your-Account-items Your-Prime-Membership-parent" href="#">
+                                                <span class="Your-Prime-Membership Your-Account-items-Id">Your Prime
+                                                    Membership</span>
+                                            </a>
+
+                                            <a class="Your-Account-items Your-Prime-Video-parent" href="#">
+                                                <span class="Your-Prime-Video Your-Account-items-Id">Your Prime
+                                                    Video</span>
+                                            </a>
+
+                                            <a class="Your-Account-items Your-Subscribe-and-Save-Items-parent" href="#">
+                                                <span class="Your-Subscribe-and-Save-Items Your-Account-items-Id">Your
+                                                    Subscribe & Save Items</span>
+                                            </a>
+
+                                            <a class="Your-Account-items Memberships-and-Subscriptions-parent" href="#">
+                                                <span
+                                                    class="Memberships-and-Subscriptions Your-Account-items-Id">Memberships
+                                                    & Subscriptions</span>
+                                            </a>
+
+                                            <a class="Your-Account-items Your-Seller-Account-parent" href="#">
+                                                <span class="Your-Seller-Account Your-Account-items-Id">Your Seller
+                                                    Account</span>
+                                            </a>
+
+                                            <a class="Your-Account-items Content-Library-parent" href="#">
+                                                <span class="Content-Library Your-Account-items-Id">Content
+                                                    Library</span>
+                                            </a>
+
+                                            <a class="Your-Account-items Devices-parent" href="#">
+                                                <span class="Devices Your-Account-items-Id">Devices</span>
+                                            </a>
+
+                                            <a class="Your-Account-items Your-Free-Amazon-Business-Account-parent"
+                                                href="#">
+                                                <span
+                                                    class="Your-Free-Amazon-Business-Account Your-Account-items-Id">Your
+                                                    Free Amazon Business Account</span>
+                                            </a>
+                                            <div class="Divider-Your-Account">
+                                            </div>
+                                            <a class="Your-Account-items Switch-Accounts-parent" href="#">
+                                                <span class="Switch-Accounts Your-Account-items-Id">Switch
+                                                    Accounts</span>
+                                            </a>
+
+                                            <a class="Your-Account-items Sign-Out-parent" href="#">
+                                                <span class="Sign-Out Your-Account-items-Id">Sign Out</span>
+                                            </a>
+
+                                        </div>
+
+                                    </DIV>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="Return-n-order">
+                    <div class="Border-Nav" id="delivery2">
+                        <div class="indelivery2 return" id="dilname">Returns</div>
+                        <div class="indelivery2" id="adname"> & Orders</div>
+                    </div>
+                </div>
+                <div class="Div-Cart">
+                    <div class="Border-Nav" id="cart">
+
+                        <img src="cart.png" alt="cart"> <span>Cart</span>
+                        <div class="cart-amt">4</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- 
+            <div class="spacenav" id="acc"> <a class="spacenav" id="acc" href="#">Account</a></div>
+
+            <div class="spacenav" id="cart"><a href="#">My Cart</a> </div>
+
+            <div class="spacenav" id="cont"><a href="#">Contact Us</a></div> -->
+        </div>
+
+
+        <nav class="nav2">
+
+            <div class="nav2-All nav2-under-class">
+                <div class="nav2-child-div All-nav2-child-div">
+                    <div class="div-bar-menu-line"><img class="bar-menu-line" src="bar-menu-1.png" alt="menu bar">
+                    </div>
+                    <div class="All-bar-menu-of-nav-2">
+                        <a class="secnav" id="allnav" href="#"> All</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-prime nav2-under-class">
+                <div class="nav2-child-div Prime-nav2-child-div">
+                    <a class="secnav" href="#">Prime </a><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                        id="Arrow">
+                        <path
+                            d="M16.682 19.674c.01-.012.014-.028.024-.04l6.982-7.714c.39-.434.39-1.138 0-1.572-.004-.004-.008-.006-.012-.008a.936.936 0 0 0-.712-.34H8.998a.948.948 0 0 0-.722.352l-.004-.004a1.202 1.202 0 0 0 0 1.572l6.998 7.754a.928.928 0 0 0 1.412 0z"
+                            fill="#a7acb2" class="color000000 svgShape"></path>
+                    </svg>
+                    <div class="prime-flyout">
+                        <div class="Prime-arrow"></div>
+                        <div class="prime-image"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav2-MX nav2-under-class">
+                <div class="nav2-child-div MX-nav2-child-div">
+                    <a class="secnav" href="#">MX Player</a>
+                </div>
+            </div>
+
+            <div class="nav2-Sell nav2-under-class">
+                <div class="nav2-child-div Sell-nav2-child-div">
+                    <a class="secnav" href="#">Sell</a>
+                </div>
+            </div>
+
+            <div class="nav2-Sub nav2-under-class">
+                <div class="nav2-child-div Subscribe-nav2-child-div">
+                    <a class="secnav" href="#">Subscribe & Save</a>
+                </div>
+            </div>
+
+            <div class="nav-Pay nav2-under-class">
+                <div class="nav2-child-div Amazon-pay-nav2-child-div">
+                    <a class="secnav" href="#">Amazon Pay</a>
+                </div>
+            </div>
+
+            <div class="nav2-buy-again nav2-under-class">
+                <div class="nav2-child-div buy-again-nav2-child-div">
+                    <a class="secnav" href="#">Buy Again</a>
+                </div>
+            </div>
+
+            <div class="nav2-amazonBasics nav2-under-class">
+                <div class="nav2-child-div AmazonBasics-nav2-child-div">
+                    <a class="secnav" href="#">AmazonBasics</a>
+                </div>
+            </div>
+
+            <div class="nav2-Gift-Card nav2-under-class">
+                <div class="nav2-child-div Gift-nav2-child-div">
+                    <a class="secnav" href="#">Gift Cards</a>
+                </div>
+            </div>
+
+            <div class="nav2-Beauty nav2-under-class">
+                <div class="nav2-child-div Beauty-nav2-child-div">
+                    <a class="secnav" href="#">Beauty & Personal Care</a>
+                </div>
+            </div>
+
+            <div class="nav2-deal  nav2-under-class">
+                <div class="nav2-child-div Deals-nav2-child-div">
+                    <a class="secnav" href="#">Today's Deals</a>
+                </div>
+            </div>
+
+            <div class="nav2-ideas nav2-under-class">
+                <div class="nav2-child-div G-Idea-nav2-child-div">
+                    <a class="secnav" href="#">Gift Ideas</a>
+                </div>
+            </div>
+
+            <div class="nav2-Customer nav2-under-class">
+                <div class="nav2-child-div Customer-nav2-child-div">
+                    <a class="secnav" href="#">Customer Service</a>
+                </div>
+            </div>
+
+            <div class="nav2-child-div" id="blank-nav2">
+
+
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- <div id="gifbelownav"></div> -->
+        <div class="gifbelownav-container"> <img id="gifbelownav"
+                src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Jupiter24/Phase2/J24_P2_GW_PC_EventHero_NTA_2x_V2._CB544902773_.jpg"
+                alt="Ektho Image"></div>
+
+
+        <Div id="content">
+
+            <div id="box1" class="contentbox"></div>
+            <div id="box12" class="contentbox"></div>
+            <div id="box123" class="contentbox"></div>
+            <div id="box1234" class="contentbox"></div>
+            <div id="box1235" class="contentbox"></div>
+            <div id="box1236" class="contentbox"></div>
+            <div id="box1237" class="contentbox"></div>
+        </Div>
+
+
+    </main>
+    <footer id="foot">
+        <div id="boxfoot">
+
+            made with ❤ amazon <br>
+            &#169; 1996-2024, Amazon.com, Inc or its affiliates
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
